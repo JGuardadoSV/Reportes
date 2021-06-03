@@ -22,6 +22,11 @@ namespace Reportes
             return new List<Ventas>
             {
                 new Ventas{id=1,numeroFactura=1,fecha=DateTime.Parse("2021-06-01"),cliente="Juan",monto=200M},
+                new Ventas{id=1,numeroFactura=1,fecha=DateTime.Parse("2021-06-01"),cliente="Juan",monto=200M},
+                new Ventas{id=1,numeroFactura=1,fecha=DateTime.Parse("2021-06-01"),cliente="Juan",monto=200M},
+                new Ventas{id=2,numeroFactura=2,fecha=DateTime.Parse("2021-06-02"),cliente="Juan",monto=100M},
+                new Ventas{id=2,numeroFactura=2,fecha=DateTime.Parse("2021-06-02"),cliente="Juan",monto=100M},
+                new Ventas{id=2,numeroFactura=2,fecha=DateTime.Parse("2021-06-02"),cliente="Juan",monto=100M},
                 new Ventas{id=2,numeroFactura=2,fecha=DateTime.Parse("2021-06-02"),cliente="Juan",monto=100M},
                 new Ventas{id=3,numeroFactura=3,fecha=DateTime.Parse("2021-06-03"),cliente="Juan",monto=300M}
             };
